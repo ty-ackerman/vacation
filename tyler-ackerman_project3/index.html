@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Fauna+One|Playfair+Display:400,700" rel="stylesheet">
+    <link type="image/png" href="assets/favicon.png" rel="icon">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+        crossorigin="anonymous">
+    <title>Choose Your Vacation</title>
+</head>
+<body>
+    <header>
+    
+        <div class="wrapper">
+            <div>
+                <h1>Find Your Dream Vacation</h1>
+                <p>Tired of being disappointed on bad vacations? Take this quiz to find your perfect holiday getaway!</p>
+                <div class="header-button-container">
+                    <a href="#question1" class="next next1">Let's get packing</a>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+    <form action="destination.php" class="quiz">
+        <section id = "question1" class="question question1">
+            <div class="wrapper">
+                <h1>What's your passport situation?</h1>
+                <input type="radio" name="passport" id="qOneA" value="A">
+                <label class="qOne" for="qOneA">Just renewed</label>
+                <input type="radio" name="passport" id="qOneB" value="B">
+                <label class="qTwo" for="qOneB">What passport?</label>
+                <input type="radio" name="passport" id="qOneC" value="C">
+                <label class="qThree" for="qOneC">Depends who's asking...</label>
+                <div class="nextContainer">
+                    <a href="#question2" class="next next2">Next Question</a>
+                </div>
+            </div>
+        </section>
+
+        <section id = "question2" class="question question2">
+            <div class="wrapper">
+                <h1>What is your budget?</h1>
+                <input type="radio" name="budget" id="qTwoA" value="A">
+                <label class="qOne" for="qTwoA">Money isn't tight, but it isn't right</label>
+                <input type="radio" name="budget" id="qTwoB" value="B">
+                <label class="qTwo" for="qTwoB">Just got my tax return</label>
+                <input type="radio" name="budget" id="qTwoC" value="C">
+                <label class="qThree" for="qTwoC">The limit does not exist</label>
+                <div class="nextContainer">
+                    <a href="#question3" class="next next3">Next Question</a>
+                </div>
+            </div>
+        </section>
+
+        <section id = "question3" class="question question3">
+            <div class="wrapper">
+                <h1>How much do you value safety?</h1>
+                <input type="radio" name="safety" id="qThreeA" value="A">
+                <label class="qOne" for="qThreeA">Light breezes startle me</label>
+                <input type="radio" name="safety" id="qThreeB" value="B">
+                <label class="qTwo" for="qThreeB">I've seen some stuff...</label>
+                <input type="radio" name="safety" id="qThreeC" value="C">
+                <label class="qThree" for="qThreeC">My mom loves me</label>
+                    <div class="nextContainer">
+                        <a href="#question4" class="next next4">Next Question</a>
+                    </div>
+            </div>
+        </section>
+
+        <section id = "question4" class="question question4">
+            <div class="wrapper">
+                <h1>Describe yourself with a song lyric</h1>
+                <input type="radio" name="song" id="qFourA" value="A">
+                <label class="qOne" for="qFourA">Bad and boujee</label>
+                <input type="radio" name="song" id="qFourB" value="B">
+                <label class="qTwo" for="qFourB">My hips don't lie</label>
+                <input type="radio" name="song" id="qFourC" value="C">
+                <label class="qThree" for="qFourC">Living on a prayer</label>
+                <div class="nextContainer">
+                    <a href="#question5" class="next next5">Next Question</a>
+                </div>
+            </div>
+        </section>
+
+        <section id = "question5" class="question question5">
+            <div class="wrapper">
+                <h1>How important is food?</h1>
+                <input type="radio" name="food" id="qFiveA" value="A">
+                <label class="qOne" for="qFiveA">I could skip a few meals</label>
+                <input type="radio" name="food" id="qFiveB" value="B">
+                <label class="qTwo" for="qFiveB">Did someone say food???</label>
+                <input type="radio" name="food" id="qFiveC" value="C">
+                <label class="qThree" for="qFiveC">Did I mention that I'm vegan?</label>
+                <div class="nextContainer">
+                    <a href="#question6" class="next next6">Next Question</a>
+                </div>
+            </div>
+        </section>
+
+        <section id = "question6" class="question question6">
+            <div class="wrapper">
+                <h1>Rate your current fitness level</h1>
+                <input type="radio" name="fitness" id="qSixA" value="A">
+                <label class="qOne" for="qSixA">Netflix doesn't ask if I'm still watching</label>
+                <input type="radio" name="fitness" id="qSixB" value="B">
+                <label class="qTwo" for="qSixB">My body is a temple</label>
+                <input type="radio" name="fitness" id="qSixC" value="C">
+                <label class="qThree" for="qSixC">Baby got back</label>
+                <div class="nextContainer">
+                    <a href="#question7" class="next next7">Next Question</a>
+                </div>
+            </div>
+        </section>
+
+        <section id = "question7" class="question question7">
+            <div class="wrapper">
+                <h1>Anything you want to add?</h1>
+                <input type="radio" name="add" id="qSevenA" value="A">
+                <label class="qOne" for="qSevenA">I also do crossfit</label>
+                <input type="radio" name="add" id="qSevenC" value="C">
+                <label class="qThree" for="qSevenC">No wifi, no bueno</label>
+                <input type="radio" name="add" id="qSevenB" value="B">
+                <label class="qTwo" for="qSevenB">Just book it already!!!</label>
+                <div class="submit-container">
+                    <a href="#results" class="submit">Where am i going?!</a>
+                </div>
+                <h2 class="incomplete hidden">Hmm... seems to be a problem. Please make sure you answered all questions.</h2>
+            </div>
+        </section>
+        
+        
+
+
+    </form>
+
+    <section class="results" id="results">
+        <div class="wakanda hidden result">
+
+            <div class="wrapper">
+                <div class="text-container">
+                    <p class="into">Welcome to...</p>
+                    <h1 class="city">Wakanda</h1>
+                    <p class="description">Wakanda vacation is this?? Get ready to be the next Marvel hero/villain in this fictional location!</p>
+                    <p class="description">Wakanda Forever.</p>
+                </div>
+                <div class="result-buttons">
+                    <!-- <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Wakanda person do you think I am?? Is the even a vacation @tyacky???"
+                    data-hashtags="InfinityWar" data-show-count="false">Tweet</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <a href="#" class="reload">play again</a> -->
+                    
+                    <a href="https://twitter.com/tyleracky?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @tyleracky</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
+        </div>
+        <div class="northKorea hidden result">
+
+            <div class="wrapper">
+                <div class="text-container">
+                    <p class="into">Welcome to...</p>
+                    <h1 class="city">North Korea</h1>
+                    <p class="description">Come experience beautiful North Korea in all it's glory. A must visit location for all thrill seekers.</p>
+                    <p class="description">This location is so awesome, you may never come back!</p>
+                </div>
+                <div class="result-buttons">
+                    <!-- <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="This is the Kim Jong Il-est vacation pick ever! Thanks @tyacky!!"
+                    data-hashtags="GetOutNorthKoreaEdition" data-show-count="false">Tweet</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+                    <a href="#" class="reload">play again</a>
+                    <a href="https://twitter.com/tyleracky?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @tyleracky</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
+        </div>
+        <div class="home hidden result">
+
+           <div class="wrapper">
+               <div class="text-container">
+                   <p class="into">Welcome to...</p>
+                   <h1 class="city">Your own house</h1>
+                   <p class="description">Honestly, you really stumped us with this one. We wouldn't want to pull you away from your 30 cats.</p>
+                   <p class="description">Consider Virtual Reality.</p>
+               </div>
+               <div class="result-buttons">
+                   <!-- <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="I&#39;ve gained nothing from this quiz. Thanks @tyleracky..."
+                   data-hashtags="Staycation" data-show-count="false">Tweet</a>
+                   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                   <a href="#" class="reload">play again</a> -->
+                    <a href="#" class="reload">play again</a>
+                   <a href="https://twitter.com/tyleracky?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @tyleracky</a>
+                   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+           </div>
+        </div>
+        <div class="dubai hidden result">
+
+            <div class="wrapper">
+                <div class="text-container">
+                    <p class="into">Welcome to...</p>
+                    <h1 class="city">Dubai</h1>
+                    <p class="description">Come live amongst royalty in this adult playground in the United Arab Emirates. This city is perfect for all big spenders!! </p>
+                    <p class="description">Don't worry, everywhere accepts visa.</p>
+                </div>
+                <div class="result-buttons">
+                    <!-- <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="So much shopping, I don&#39;t know what Dubai!! (Get it?? to buy = Dubai lololol) @tyleracky"
+                    data-hashtags="SoExpensive" data-show-count="false">Tweet</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+                    <a href="#" class="reload">play again</a>
+                    <a href="https://twitter.com/tyleracky?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @tyleracky</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
+        </div>
+        <div class="mars hidden result">
+
+            <div class="wrapper">
+                <div class="text-container">
+                    <p class="into">Welcome to...</p>
+                    <h1 class="city">Mars</h1>
+                    <p class="description">This vacation is literally out of this world! Come mingle with Matt Damon and Elon Musk poolside in Mars!</p>
+                    <p class="description">One way ticket only.</p>
+                </div>
+                <div class="result-buttons">
+                    <!-- <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Wow, I can&#39;t believe @tyleracky sent me to Mars! This quiz is out of this world!"
+                    data-url="http://www.tylerackerman.io/vacation" data-show-count="false">Tweet</a> -->
+                    <a href="#" class="reload">play again</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <a href="https://twitter.com/tyleracky?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @tyleracky</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
+        </div>
+        <div class="kingPen hidden result">
+
+            <div class="wrapper">
+                <div class="text-container">
+                    <p class="into">Welcome to...</p>
+                    <h1 class="city">Kingston penitentiary</h1>
+                    <p class="description">Honestly, the less we know the better. How about you just hit that 'play again' button and we forget this ever happened.</p>
+                    <p class="description">On the bright side, it is all inclusive...</p>
+                </div>
+                <div class="result-buttons">
+                    <!-- <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Cheapest vacation ever. Thanks @tyacky!! "
+                    data-hashtags="Innocent IfTheGloveDontFit" data-show-count="false">Tweet</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+                    <a href="#" class="reload">play again</a>
+                    <a href="https://twitter.com/tyleracky?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @tyleracky</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                 </div>
+            </div>
+        </div>
+    </section>
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js' integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4='crossorigin='anonymous'></script>
+    <script src="script.js"></script>
+</body>
+</html>
